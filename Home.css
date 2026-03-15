@@ -37,9 +37,65 @@ li a{
     text-decoration: none;
     font-size: 30px;
     padding-left: 20px;
+    transition: ease-in-out 0.5s;
+}
+
+/* NAV-HOVER */
+li a:hover{
+    text-decoration: underline;
 }
 
 /* HERO */
-.hero{
-    
+main{
+    margin-top: 50vh;
+    margin-left: 20vh;
+}
+
+.hero p{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Buttons */
+
+button{
+    margin-left: 80vh;
+    font-size: 40px;
+}
+
+/* Download button */
+.download-btn{
+    background-color: skyblue;
+    border-radius: 20px;
+    padding: 30px;
+    transition: ease-in-out 0.5s;
+}
+
+.download-btn:hover{
+    color: black;
+    background-color: white;
+}
+
+/* Play button */
+.play-btn{
+    border-radius: 20px;
+    background-color: white;
+    padding: 20px;
+    transition: ease-in-out 0.5s;
+}
+
+.play-btn a{
+    text-decoration: none;
+    color: yellow;
+    transition: ease-in-out 0.5s;
+}
+
+.play-btn a:hover{
+    color: black;
+}
+
+.play-btn:hover{
+    background-color: azure;
 }
