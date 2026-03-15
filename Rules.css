@@ -47,3 +47,32 @@ nav a:hover{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 30px;
 }
+
+.head{
+    margin-left: 3vh;
+    display: flex;
+    justify-content: center;
+}
+
+.head img{
+    width: 40vh;
+    height: 18vh;
+}
+/* Rules */
+.rules{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ol{
+    list-style-type: lower-greek;
+    padding: 20px;
+}
+
+li{
+    color: grey;
+    padding: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
