@@ -17,3 +17,19 @@ body{
 }
 
 /* Navigation */
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a{
+    text-decoration: none;
+    color: rgb(110, 110, 111);
+    font-family: fantasy;
+    transition: ease-in-out 0.5s;
+}
+
+nav a:hover{
+    color: black;
+    text-decoration: underline;
+}
