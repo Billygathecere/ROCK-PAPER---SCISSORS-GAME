@@ -1,0 +1,19 @@
+body{
+    background-image: linear-gradient(to top, white, skyblue);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.rules-card{
+    background-color: white;
+    border-radius: 20px;
+    height: 70vh;
+    width: 60vh;
+    padding: 20px;
+}
+
+/* Navigation */
