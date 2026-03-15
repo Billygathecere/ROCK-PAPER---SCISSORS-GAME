@@ -1,0 +1,45 @@
+body{
+    background-image: url(./background.img.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
+}
+
+/* NAVIGATION */
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+li{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+button{
+    background-color: blanchedalmond;
+    font-size: 20px;
+    color: white;
+}
+
+li a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    padding-left: 20px;
+}
+
+/* HERO */
+.hero{
+    
+}
