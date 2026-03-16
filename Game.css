@@ -150,3 +150,13 @@ a{
     text-decoration: none;
     color: rgb(178, 164, 164);
 }
+
+/* Final results */
+.final-results{
+    width: 80px;
+    height: 80px;
+    background-color: gray;
+    position: absolute;
+    margin-top: 35vh;
+    margin-left: 20vh;
+}
