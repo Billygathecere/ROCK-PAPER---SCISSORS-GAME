@@ -85,3 +85,61 @@ li{
 }
 
 /* Messages */
+.message{
+    background-color: grey;
+    border: solid rgb(49, 47, 47) 4px;
+    border-radius: 20px;
+    width: 30vh;
+    height: 5vh;
+    padding: 20px;
+    margin-left: 15vh;
+}
+
+input{
+    background-color: gray;
+    height: 4vh;
+    width: 25vh;
+    border: none;
+}
+
+input::placeholder{
+    font-size: 20px;
+    color: black;
+}
+
+i{
+    color: blue;
+    transition: ease-in-out 0.5s;
+}
+
+i:hover{
+    color: green;
+}
+
+/* Pay Button */
+.play-btn{
+    margin-top: -10vh;
+}
+
+button{
+    width: 10vh;
+    height: 5vh;
+    background-color: yellow;
+    border-radius: 20px;
+    transition: ease-in-out 0.5s;
+}
+
+button a{
+    text-decoration: none;
+    color: grey;
+    font-size: 25px;
+    transition: ease-in-out 0.5s;
+}
+
+button:hover{
+    background-color: skyblue;
+}
+
+button a{
+    color: black;
+}
