@@ -91,7 +91,7 @@ span{
     width: 30px;
     height: 30px;
     padding: 20px;
-    margin:  20px 0;
+    margin:  50px 0;
 }
 
 /* Computer */
@@ -112,7 +112,7 @@ span{
     width: 30px;
     height: 30px;
     padding: 20px;
-    margin: 20px 0;
+    margin: 50px 0;
 }
 
 /* Results */
@@ -132,4 +132,21 @@ h3{
     font-size: 35px;
     font-family: 'Ubuntu';
     margin: 20px 0;
+}
+
+/* Navigation */
+.nav{
+    display: flex;
+    margin-top: -60vh;
+    margin-left: 10vh;
+}
+
+i{
+    color: gray;
+    padding-right: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(178, 164, 164);
 }
