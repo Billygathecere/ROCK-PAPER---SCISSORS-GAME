@@ -1,0 +1,20 @@
+body{
+    background-image: radial-gradient(circle, grey, white, gray);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Game Card */
+.game-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: radial-gradient(circle, blanchedalmond 50%, white );
+    width: 75vh;
+    height: 75vh;
+    border-radius: 20px;
+}
