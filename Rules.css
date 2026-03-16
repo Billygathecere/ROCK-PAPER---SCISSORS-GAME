@@ -23,7 +23,7 @@ body{
 nav{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     background-color: rgb(217, 87, 87);
     height: 70vh;
     border-top-left-radius: 20px;
@@ -36,6 +36,7 @@ nav a{
     color: rgb(59, 59, 101);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     transition: ease-in-out 0.5s;
+    padding: 50px 0;
 }
 
 nav a:hover{
