@@ -19,13 +19,13 @@
         </div>
         <div class="choices">
             <span>CHOICES</span>
-            <button type="button" onclick="game()">
+            <button type="button" class="Rock" onclick="game(event)">
                 Rock
             </button>
-            <button type="button" onclick="game()">
+            <button type="button" class="Paper" onclick="game(event)">
                 Paper
             </button>
-            <button type="button" onclick="game()">
+            <button type="button" class="Scissors" onclick="game(event)">
                 Scissors
             </button>
         </div>
@@ -40,11 +40,14 @@
          <div class="versus">
             <span class="v">VS</span>
          </div>
-         <div class="final-results" id="final-results"></div>
+         <div class="final-results" id="final-results">
+            <p id="results-comment">
+            </p>
+         </div>
          <!-- Computer Results -->
           <div class="computer">
           <h3>COMPUTER</h3>
-         <div class="c-results"id="comp-result"></div>
+         <div class="c-results"id="computer-result"></div>
          <div class="cscores" id="cscores"></div>
          </div>
          </div>
