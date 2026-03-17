@@ -4,13 +4,13 @@
 let pScores = 0;
 let cScores = 0;
 
+// References to DOM elements that will be updated
+const playerScore = document.getElementById("pscores");
+const computerScore = document.getElementById("cscores");
+
 const game = (event) => {
     // The option clicked by the player
     const pchoice = event.target;
-
-    // References to DOM elements that will be updated
-    const playerScore = document.getElementById("pscores");
-    const computerScore = document.getElementById("cscores");
 
     // Computer choice options
     const options = ["Rock", "Paper", "Scissors"];
@@ -86,8 +86,51 @@ const updateImage = (elementId, imagePath) => {
     if (imagePath) {
         const photo = document.createElement("img");
         photo.src = imagePath;
-        photo.style.width = "80px";
-        photo.style.height = "80px";
+        photo.style.width = "120px";
+        photo.style.height = "120px";
+        photo.style.borderRadius = "50%";
         container.appendChild(photo);
     }
+}
+
+// Reset function
+const reset = () => {
+    pScores = 0;
+    cScores = 0;
+    playerScore.textContent = pScores;
+    computerScore.textContent = cScores;
+    comment.textContent = "";
+    updateImage("player-results", null);
+    updateImage("computer-results", null);
+    updateImage("final-results", null);
+}
+
+// Home function
+const home = () => {
+    window.location.href = "Home.html";
+}
+
+// Rules function
+const rules = () => {
+    window.location.href = "Rules.html";
+}
+
+// High-score function
+const High_score = () => {
+    localStorage.setItem("pScores", pScores);
+    // this means store the pScores in localStorage
+    localStorage.setItem("cScores", cScores);
+    // this means store the cScores in localStorage
+    // we need to get the highscore from the localStorage
+    const pHighscore = localStorage.getItem("pScores");
+    const cHighscore = localStorage.getItem("cScores");
+    // we need to display the highscore
+    const display = document.getElementById("pHighscore");
+    display.textContent = pHighscore;
+    const display2 = document.getElementById("cHighscore");
+    display2.textContent = cHighscore;
+
+    const mydiv = document.getElementById("high-score");
+    mydiv.style.display = "flex";
+    mydiv.style.flexDirection = "column";
 }

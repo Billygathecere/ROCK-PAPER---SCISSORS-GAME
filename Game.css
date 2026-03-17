@@ -86,6 +86,9 @@ span {
 .pscores {
     padding: 20px;
     margin: 50px 0;
+    color: rgb(224, 210, 11);
+    font-size: 85px;
+    font-family: 'Ubuntu';
 }
 
 /* Computer */
@@ -101,6 +104,9 @@ span {
 .cscores {
     padding: 20px;
     margin: 50px 0;
+    color: rgb(15, 11, 224);
+    font-size: 85px;
+    font-family: 'Ubuntu';
 }
 
 /* Results */
@@ -144,4 +150,32 @@ a {
     position: absolute;
     margin-top: 35vh;
     margin-left: 20vh;
+}
+
+/* High Score */
+#pHighscore {
+    color: rgb(224, 210, 11);
+    font-size: 85px;
+    font-family: 'Ubuntu';
+}
+
+
+#cHighscore {
+    color: rgb(15, 11, 224);
+    font-size: 85px;
+    font-family: 'Ubuntu';
+}
+
+.high-score {
+    display: flex;
+    align-items: center;
+    margin-left: 10vh;
+}
+
+#pHighscore {
+    margin-right: 10vh;
+}
+
+#cHighscore {
+    margin-left: 10vh;
 }
