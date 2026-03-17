@@ -1,5 +1,5 @@
-body{
-    background-image: url(./background.img.webp);
+body {
+    background-image: url(./Images/background.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -8,31 +8,31 @@ body{
 }
 
 /* NAVIGATION */
-nav{
+nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-ul{
+ul {
     display: flex;
     justify-content: space-around;
 }
 
-li{
+li {
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 20px;
 }
 
-button{
+button {
     background-color: blanchedalmond;
     font-size: 20px;
     color: white;
 }
 
-li a{
+li a {
     color: white;
     text-decoration: none;
     font-size: 30px;
@@ -41,17 +41,17 @@ li a{
 }
 
 /* NAV-HOVER */
-li a:hover{
+li a:hover {
     text-decoration: underline;
 }
 
 /* HERO */
-main{
+main {
     margin-top: 50vh;
     margin-left: 20vh;
 }
 
-.hero p{
+.hero p {
     text-align: center;
     color: white;
     font-size: 50px;
@@ -60,42 +60,42 @@ main{
 
 /* Buttons */
 
-button{
+button {
     margin-left: 80vh;
     font-size: 40px;
 }
 
 /* Download button */
-.download-btn{
+.download-btn {
     background-color: skyblue;
     border-radius: 20px;
     padding: 30px;
     transition: ease-in-out 0.5s;
 }
 
-.download-btn:hover{
+.download-btn:hover {
     color: black;
     background-color: white;
 }
 
 /* Play button */
-.play-btn{
+.play-btn {
     border-radius: 20px;
     background-color: white;
     padding: 20px;
     transition: ease-in-out 0.5s;
 }
 
-.play-btn a{
+.play-btn a {
     text-decoration: none;
     color: yellow;
     transition: ease-in-out 0.5s;
 }
 
-.play-btn a:hover{
+.play-btn a:hover {
     color: black;
 }
 
-.play-btn:hover{
+.play-btn:hover {
     background-color: azure;
 }

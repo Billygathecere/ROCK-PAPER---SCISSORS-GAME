@@ -7,7 +7,7 @@
 
 
 
-body{
+body {
     background-image: radial-gradient(circle, grey, white, gray);
     background-repeat: no-repeat;
     background-size: cover;
@@ -18,18 +18,18 @@ body{
 }
 
 /* Game Card */
-.game-card{
+.game-card {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: radial-gradient(circle, blanchedalmond 50%, white );
+    background-image: radial-gradient(circle, blanchedalmond 50%, white);
     width: 105vh;
     height: 75vh;
     border-radius: 35px;
 }
 
 /* Choices */
-.choices{
+.choices {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -43,119 +43,104 @@ body{
 }
 
 /* button */
-button{
+button {
     background-color: rgb(175, 166, 166);
     padding: 20px;
     border-radius: 20px;
     margin: 20px;
-    box-shadow:  2px 3px 3px rgb(53, 51, 51);
+    box-shadow: 2px 3px 3px rgb(53, 51, 51);
     font-family: 'Ubuntu';
     color: rgb(224, 210, 11);
     font-size: 20px;
     transition: ease-in-out 0.5s;
 }
 
-button:hover{
+button:hover {
     transform: translatey(-20%);
     color: grey;
     background-color: blueviolet;
 }
 
-span{
+span {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 30px;
 }
 
 /* Results-section */
-.results-section{
+.results-section {
     display: flex;
     margin-top: -30vh;
     margin-right: 10vh;
 }
 
 /* Player */
-.player{
+.player {
     margin-top: 10vh;
     margin-right: 10vh;
 }
 
-.results{
-    background-color: gray;
-    width: 30px;
-    height: 30px;
+.results {
     padding: 20px;
 }
 
-.pscores{
-    background-color: gray;
-    width: 30px;
-    height: 30px;
+.pscores {
     padding: 20px;
-    margin:  50px 0;
+    margin: 50px 0;
 }
 
 /* Computer */
-.computer{
+.computer {
     margin-top: 10vh;
     margin-left: 10vh;
 }
 
-.c-results{
-    background-color: gray;
-    width: 30px;
-    height: 30px;
+.c-results {
     padding: 20px;
 }
 
-.cscores{
-    background-color: gray;
-    width: 30px;
-    height: 30px;
+.cscores {
     padding: 20px;
     margin: 50px 0;
 }
 
 /* Results */
-.versus{
+.versus {
     margin-top: 20vh;
     padding: 20px;
 }
 
-.v{
-    font-size:60px;
+.v {
+    font-size: 60px;
     color: gray;
     font-family: 'Lilita One';
 
 }
 
-h3{
+h3 {
     font-size: 35px;
     font-family: 'Ubuntu';
     margin: 20px 0;
 }
 
 /* Navigation */
-.nav{
+.nav {
     display: flex;
     margin-top: -60vh;
     margin-left: 10vh;
 }
 
-i{
+i {
     color: gray;
     padding-right: 20px;
 }
 
-a{
+a {
     text-decoration: none;
     color: rgb(178, 164, 164);
 }
 
 /* Final results */
-.final-results{
-    width: 80px;
-    height: 80px;
-    background-color: gray;
+.final-results {
     position: absolute;
     margin-top: 35vh;
     margin-left: 20vh;

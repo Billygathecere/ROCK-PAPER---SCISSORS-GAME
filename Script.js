@@ -15,14 +15,14 @@ const game = (event) => {
     // Computer choice options
     const options = ["Rock", "Paper", "Scissors"];
     const Cchoice = options[Math.floor(Math.random() * 3)];
-    
+
     // Check win/lose/draw conditions
     if (pchoice.classList.contains("Scissors") && Cchoice === "Paper") {
         setWinnerState("You Win", "green", "./Images/Cartoon scissors character.webp", "./Images/Cartoon paper character.webp", "./Images/Cartoon scissors cutting paper.webp");
         pScores++;
     }
     else if (pchoice.classList.contains("Rock") && Cchoice === "Scissors") {
-        setWinnerState("You Win", "green", "./Images/Cartoon rock character.webp", "./Images/Cartoon scissors character.webp", null);
+        setWinnerState("You Win", "green", "./Images/Cartoon rock character.webp", "./Images/Cartoon scissors character.webp", "./Images/Cartoon of rock crushing scissors.webp");
         pScores++;
     }
     else if (pchoice.classList.contains("Paper") && Cchoice === "Rock") {
@@ -75,19 +75,19 @@ const setWinnerState = (text, textColor, playerImagePath, computerImagePath, fin
 const updateImage = (elementId, imagePath) => {
     const container = document.getElementById(elementId);
     if (!container) return;
-    
+
     // Find and remove any existing <img> tag
     const oldImg = container.querySelector("img");
     if (oldImg) {
         oldImg.remove();
     }
-    
+
     // Add the new image if a path is provided
     if (imagePath) {
         const photo = document.createElement("img");
         photo.src = imagePath;
-        photo.style.width = "100px";
-        photo.style.height = "100px";
+        photo.style.width = "80px";
+        photo.style.height = "80px";
         container.appendChild(photo);
     }
 }
